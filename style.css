@@ -1,0 +1,159 @@
+ /* Reset básico para garantir consistência no layout */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ /* Define o estilo geral do corpo da página */
+ body {
+     font-family: 'roboto', sans-serif;
+     width: 100%;
+     height: 100%;
+     background-color: #D9D9D9;
+ }
+
+ /* Estiliza a seção principal de cadastro */
+ .cadastro {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #1F5768;
+     padding: 100px 10px;
+ }
+
+ /* Estiliza o título da seção */
+ .cadastro h1 {
+     font-size: 2rem;
+     margin-bottom: 20px;
+     color: #fff;
+     font-weight: lighter;
+ }
+
+ /* Define o layout e o tamanho do formulário */
+ .cadastro form {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: #fff;
+     width: 100%;
+     max-width: 400px;
+     margin-top: 40px;
+ }
+
+ /* Estiliza os rótulos dos campos do formulário */
+ .cadastro form label {
+     font-size: 1rem;
+     margin-bottom: 5px;
+ }
+
+ /* Estiliza os campos de entrada do formulário */
+ .cadastro form input {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 10px;
+     border: none;
+     background-color: #fff;
+     font-size: 1rem;
+     text-transform: capitalize;
+     color: #555555;
+     outline: none;
+ }
+
+ /* Estiliza o botão de envio do formulário */
+ .cadastro form button {
+     padding: 10px;
+     background-color: #0D2228;
+     border: none;
+     color: #fff;
+     font-size: 1rem;
+     cursor: pointer;
+     transition: all 0.3s ease-in-out;
+     margin-top: 10px;
+ }
+
+ /* Estiliza a seção de exibição de dados */
+ .lista-clientes {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #D9D9D9;
+     padding: 30px 10px;
+ }
+
+ /* Estiliza o título da seção de exibição de dados */
+ .title-lista {
+     font-size: 2rem;
+     color: #000000;
+     text-align: center;
+     font-weight: lighter;
+     text-transform: capitalize;
+     margin-top: 40px;
+ }
+
+ .card-cliente {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-color: #D0D0D0;
+     padding: 20px 10px;
+     margin: 20px 0;
+     width: 100%;
+     max-width: 460px;
+     border: 1px solid #939393;
+     border-radius: 5px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ .card-cliente:nth-child(odd) {
+     background-color: #D0D0D0;
+     /* Cor padrão */
+ }
+
+ .card-cliente:nth-child(even) {
+     background-color: #1f576836;
+     /* Cor alternada */
+ }
+
+ .card-cliente h3 {
+     font-size: 1rem;
+     color: #000;
+     font-weight: bold;
+ }
+
+ .card-cliente h3:nth-of-type(2) {
+     margin-top: 10px;
+ }
+
+ .card-cliente p {
+     font-size: 1rem;
+     color: #1E1E1E;
+     font-weight: normal;
+     padding: 10px 0;
+     border-bottom: 1px solid #1E1E1E;
+ }
+
+ .btn-remove {
+     width: 150px;
+     height: 40px;
+     background-color: #C01616;
+     border: none;
+     color: #fff;
+     font-size: 13px;
+     cursor: pointer;
+     transition: all 0.3s ease-in-out;
+     margin-top: 10px;
+ }
+
+ /* Estiliza o rodapé */
+ footer {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding: 10px 5px;
+     background-color: #D9D9D9;
+ }
