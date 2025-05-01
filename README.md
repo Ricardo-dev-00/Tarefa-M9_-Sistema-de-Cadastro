@@ -1,3 +1,6 @@
+## 🌐 Link do Projeto
+Acesse o projeto online: [Cadastro de Endereço - EBAC](https://ricardo-dev-00.github.io/Tarefa-M9_-Sistema-de-Cadastro/)
+
 # Cadastro de Clientes
 
 Este é um projeto de **Cadastro de Clientes**, desenvolvido como parte do curso de **Desenvolvimento Front-End** da **EBAC**. O objetivo do projeto é criar uma interface simples e funcional para o cadastro e gerenciamento de clientes, utilizando uma API para persistência dos dados.
@@ -27,7 +30,7 @@ O projeto é composto pelos seguintes arquivos:
 
 1. Clone este repositório para o seu computador:
    ```bash
-   git clone https://github.com/seu-usuario/cadastro-clientes.git
+   git clone git@github.com:Ricardo-dev-00/Tarefa-M9_-Sistema-de-Cadastro.git
    ```
 2. Abra o arquivo `index.html` em um navegador.
 3. Preencha os campos de nome e email no formulário.
