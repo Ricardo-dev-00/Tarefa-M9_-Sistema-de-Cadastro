@@ -93,6 +93,7 @@
      margin-top: 40px;
  }
 
+ /* Estiliza os cards dos clientes */
  .card-cliente {
      display: flex;
      flex-direction: column;
@@ -107,6 +108,7 @@
      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
  }
 
+ /* Estiliza os cards com cor alternada */
  .card-cliente:nth-child(odd) {
      background-color: #D0D0D0;
      /* Cor padrão */
@@ -117,16 +119,19 @@
      /* Cor alternada */
  }
 
+ /* Estiliza os títulos dentro dos cards */
  .card-cliente h3 {
      font-size: 1rem;
      color: #000;
      font-weight: bold;
  }
 
+ /* Adiciona espaçamento ao segundo título */
  .card-cliente h3:nth-of-type(2) {
      margin-top: 10px;
  }
 
+ /* Estiliza os parágrafos dentro dos cards */
  .card-cliente p {
      font-size: 1rem;
      color: #1E1E1E;
@@ -135,6 +140,7 @@
      border-bottom: 1px solid #1E1E1E;
  }
 
+ /* estiliza o botão que remove os clientes do cadastro */
  .btn-remove {
      width: 150px;
      height: 40px;
